@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+nitesh = [
+  'rani',
+  'tunu'
+];
+    
+  onClick(){
+  this.nitesh.push('hello');
+  console.log(this.nitesh[1]);
+  alert('added')
+
+  }
 }
